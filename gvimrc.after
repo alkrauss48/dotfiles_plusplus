@@ -1,0 +1,28 @@
+
+colorscheme wombat
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Text, tab and indent related
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set expandtab
+set shiftwidth=2
+
+set tabstop=2
+set smarttab
+set cc=80
+hi  ColorColumn ctermbg=red ctermfg=white guibg=#592929
+set lbr
+set tw=500
+
+set ai "Auto indent
+set si "Smart indet
+set wrap "Wrap lines
+
+set list
+set listchars=tab:▸\ ,eol:¬
+highlight NonText guifg=#FF3399
+highlight SpecialKey guifg=#FF3399
+
+let NERDTreeShowHidden=1
+
+set splitright
