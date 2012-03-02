@@ -4,10 +4,10 @@ should never be touched if you want to keep it updated.
 
 #########LINUX USERS####
 You will need to make sure the following are installed:
-  vim-gnome, rake, git, ctags, ack, pep, curl
+  `vim-gnome, rake, git, ctags, ack, pep, curl`
 
-#######MAC USERS########
-You will need to make sure macvim is installed.
+MAC USERS
+You will need to make sure `macvim` is installed.
 
 Install Janus via:
 
