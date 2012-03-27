@@ -9,6 +9,8 @@ You will need to make sure the following are installed:
 ###MAC USERS
 You will need to make sure `macvim` is installed.
 
+<hr />
+
 Install Janus via:
 
 `$ curl -Lo- http://bit.ly/janus-bootstrap | bash`
