@@ -27,4 +27,5 @@ want to), enter these commands:
 
 ```
 $ cd ~/.vim
-$ rake```
+$ rake
+```
