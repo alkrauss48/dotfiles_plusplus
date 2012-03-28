@@ -21,3 +21,10 @@ Once cloned, run the command:
 `$ bash init.sh`
 
 Your Vim should now be awesome.
+
+If you ever want to update the core Janus distribution (which you will
+want to), enter these commands:
+
+```
+$ cd ~/.vim
+$ rake```
