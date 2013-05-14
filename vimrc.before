@@ -1,1 +1,26 @@
 let mapleader = ","
+
+colorscheme evening
+
+set expandtab
+set shiftwidth=2
+
+set tabstop=2
+set smarttab
+set cc=80
+hi  ColorColumn ctermbg=red ctermfg=white guibg=#592929
+hi Comment ctermfg=grey guifg=#9a9a9a
+set lbr
+set tw=500
+
+set ai "Auto indent
+set si "Smart indet
+set nowrap "Don't wrap lines
+
+set list
+highlight NonText guifg=#FF3399
+highlight SpecialKey guifg=#FF3399
+
+let NERDTreeShowHidden=1
+
+set splitright
