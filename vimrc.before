@@ -1,7 +1,5 @@
 let mapleader = ","
 
-colorscheme evening
-
 set expandtab
 set shiftwidth=2
 
