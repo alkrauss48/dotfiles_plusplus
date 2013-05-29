@@ -19,6 +19,7 @@ set si "Smart indet
 set nowrap "Don't wrap lines
 
 set list
+map <leader>l :set list!<CR>
 set listchars=tab:▸\ ,eol:¬
 highlight NonText guifg=#FF3399
 highlight SpecialKey guifg=#FF3399
