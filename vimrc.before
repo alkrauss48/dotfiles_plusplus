@@ -1,1 +1,3 @@
 let mapleader = ","
+
+map <Leader>dw :s/\s\+$//<CR>  "delete whitespace
