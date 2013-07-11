@@ -2,7 +2,7 @@
 #git submodule
 
 echo "link dotfiles"
-for file in gvimrc.after vimrc.before vimrc.after vim.old
+for file in gvimrc.after vimrc.before vimrc.after
 do
     ln -s "${PWD}/${file}" "${HOME}/.${file}"
 done
