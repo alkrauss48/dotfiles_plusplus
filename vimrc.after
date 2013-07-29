@@ -31,3 +31,6 @@ set listchars=tab:▸\ ,eol:¬
 
 highlight NonText     ctermfg=175 "Pinkify the colors
 highlight SpecialKey  ctermfg=175
+
+" sets yank/paste to use the system's clipboard
+set clipboard=unnamed
