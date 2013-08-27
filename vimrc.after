@@ -3,7 +3,7 @@ colorscheme wombat256mod
 set expandtab
 set shiftwidth=2
 
-set term=screen-256color " Give the terminal full color access
+set term=xterm-256color " Give the terminal full color access
 set t_Co=256
 
 set tabstop=2
@@ -14,6 +14,13 @@ hi ColorColumn ctermbg=red ctermfg=white guibg=#592929
 
 hi link EasyMotionTarget ErrorMsg
 hi link EasyMotionShade Comment
+
+if &term =~ '256color'
+  " Disable Background Color Erase (BCE) so that color schemes
+  " work properly when Vim is used inside tmux and GNU screen.
+  " See also http://snk.tuxfamily.org/log/vim-256color-bce.html
+  set t_ut=
+endif
 
 set lbr
 set tw=500
