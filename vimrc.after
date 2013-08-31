@@ -1,4 +1,5 @@
-colorscheme wombat256mod
+"colorscheme wombat256mod
+colorscheme custom_wombat256
 
 set expandtab
 set shiftwidth=2
