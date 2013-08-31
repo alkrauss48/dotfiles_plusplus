@@ -1,36 +1,23 @@
+# Dotfiles
+
+Welcome, here are some of my basic dotfiles
+
+To install the symbolic links for all these files, clone this bad boy into your home dir and run
+`./install.sh`
+
+## bashrc, tmux.conf, and rspec
+Pretty self-explanatory, just the basic config files for their
+respective applications
+
+## Janus Dir and vim files
+
 This is a collection of the support files I use with the Janus
 distrubition for Vim. They are separate from the core of Janus because that
 should never be touched if you want to keep it updated.
 
-You will need to make sure the following are installed: 
-  `rake, git, ctags, ack, pep, curl`
-  
-If you want to run a graphical vim to get a larger choice of
-colorschemes, then you'll need to do the following. Otherwise, skip this part.
+The janus directory works like a pathogen `bundle` directory, so I just
+slap my extra colorschemes and plugins in there. The other vim files are
+automagically sourced before and after janus's vimrc and gvimrc are run.
 
-###LINUX USERS
-You will need to make sure `vim-gnome` is installed:
-
-###MAC USERS
-You will need to make sure `macvim` is installed.
-
-<hr />
-
-Install Janus via:
-
-`$ curl -Lo- http://bit.ly/janus-bootstrap | bash`
-
-Then clone this repo into `~/.janus`
-Once cloned, run the command:
-
-`$ bash init.sh`
-
-Your Vim/GVim/MacVim should now be awesome.
-
-If you ever want to update the core Janus distribution (which you will
-want to), enter these commands:
-
-```
-$ cd ~/.vim
-$ rake
-```
+For more help on installing or learning about Janus itself, please visit the [Janus Github
+page](https://github.com/carlhuda/janus)
