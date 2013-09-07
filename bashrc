@@ -19,6 +19,7 @@ alias m="mvim ."
 alias v="vim ."
 alias oo='open -a /Applications/OpenOffice.org.app'
 alias chrome='open -a /Applications/Google\ Chrome.app'
+alias tmux='tmux -2'
 
 export EDITOR=vim
 
