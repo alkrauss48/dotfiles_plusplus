@@ -9,7 +9,7 @@ fi
 alias cp="cp -v"
 alias mv="mv -v"
 alias rm="rm -v"
-alias ls="ls -G"
+alias ls="ls -G --color=auto"
 alias gs="git status"
 alias gd="git diff"
 alias gb="git branch"
