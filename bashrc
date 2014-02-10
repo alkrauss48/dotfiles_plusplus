@@ -10,16 +10,18 @@ alias cp="cp -v"
 alias mv="mv -v"
 alias rm="rm -v"
 alias ls="ls -G --color=auto"
-alias gs="git status"
+alias l="ls -laG --color=auto"
+alias g="git status"
 alias gd="git diff"
 alias gb="git branch"
 alias gco="git checkout"
-alias gr="git remote -v"
-alias m="mvim ."
-alias v="vim ."
+alias grv="git remote -v"
+alias v="vim"
 alias oo='open -a /Applications/OpenOffice.org.app'
 alias chrome='open -a /Applications/Google\ Chrome.app'
 alias tmux='tmux -2'
+alias ..='cd ..'
+alias ak="ssh -Y root@162.243.14.224"
 
 export EDITOR=vim
 
@@ -74,3 +76,5 @@ function set_window_and_tab_title()
 export PATH="/usr/local/heroku/bin:$PATH"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

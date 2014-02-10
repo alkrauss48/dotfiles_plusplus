@@ -1,4 +1,4 @@
-let mapleader = ","
+let mapleader = "\\"
 
 "map <Leader>dw :s/\s\+$//<CR>  "delete whitespace
 map <Leader>dw :s/[\r \t]\+$//<CR>  "delete whitespace

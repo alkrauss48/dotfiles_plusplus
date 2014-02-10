@@ -42,3 +42,5 @@ highlight SpecialKey  ctermfg=175
 
 " sets yank/paste to use the system's clipboard
 set clipboard=unnamed
+
+set relativenumber
