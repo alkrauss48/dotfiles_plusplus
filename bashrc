@@ -6,16 +6,22 @@ if [[ "$TERM" == "xterm" || "$TERM" == "xterm-color" ]]; then
     #export PS1
 fi
 
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+alias ls="ls -G"
+alias l="ls -laG"
+
 alias cp="cp -v"
 alias mv="mv -v"
 alias rm="rm -v"
-alias ls="ls -G --color=auto"
-alias l="ls -laG --color=auto"
 alias g="git status"
+alias gg="git lg"
 alias gd="git diff"
 alias gb="git branch"
 alias gco="git checkout"
 alias grv="git remote -v"
+alias gcv="git commit -v"
 alias v="vim"
 alias oo='open -a /Applications/OpenOffice.org.app'
 alias chrome='open -a /Applications/Google\ Chrome.app'

@@ -44,3 +44,6 @@ highlight SpecialKey  ctermfg=175
 set clipboard=unnamed
 
 set relativenumber
+
+"Remap jj to Esc in insert mode
+inoremap jj <Esc>
