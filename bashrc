@@ -6,11 +6,17 @@ if [[ "$TERM" == "xterm" || "$TERM" == "xterm-color" ]]; then
     #export PS1
 fi
 
+for file in /usr/local/etc/bash_completion.d/* ; do
+  source "$file"
+done
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 alias ls="ls -G"
 alias l="ls -laG"
+alias c="cd ~/Code"
+alias gruo="git remote update origin"
 
 alias cp="cp -v"
 alias mv="mv -v"
@@ -81,6 +87,13 @@ function set_window_and_tab_title()
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH="/usr/local/bin:$PATH"
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+if
+  which pyenv > /dev/null; then eval "$(pyenv init -)";
+  rm ~/.pyenv/shims/*config
+fi
+

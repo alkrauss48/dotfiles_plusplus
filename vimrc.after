@@ -43,7 +43,8 @@ highlight SpecialKey  ctermfg=175
 " sets yank/paste to use the system's clipboard
 set clipboard=unnamed
 
-set relativenumber
+"set relativenumber
+autocmd BufEnter * :set relativenumber
 
 "Remap jj to Esc in insert mode
 inoremap jj <Esc>
