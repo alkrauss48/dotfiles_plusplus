@@ -1,0 +1,17 @@
+# ~/.tmuxinator/kk.yml
+
+project_name: kk
+project_root: ~/Code/kikuchat2
+windows:
+  - editor:
+      layout: 8087,238x60,0,0[238x44,0,0,0,238x15,0,45,5]
+      panes:
+        - vim
+        -
+  - shell: git remote update origin; git pull --rebase origin
+  - console/server:
+      layout: even-vertical
+      panes:
+        - rails c
+        - rails s
+        - rake jobs:work

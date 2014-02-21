@@ -1,0 +1,8 @@
+Bundle 'altercation/vim-colors-solarized'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/vim-snippets"
+Bundle "garbas/vim-snipmate"
+Bundle "bronson/vim-trailing-whitespace"
+Bundle "gorodinskiy/vim-coloresque"
+Bundle "scrooloose/nerdtree"

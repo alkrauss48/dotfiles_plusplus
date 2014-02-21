@@ -1,0 +1,27 @@
+syntax enable
+set background=dark
+" let g:solarized_termtrans = 1
+set hlsearch
+colorscheme solarized
+imap <C-j> <Plug>snipMateNextOrTrigger
+smap <C-j> <Plug>snipMateNextOrTrigger
+
+set relativenumber
+autocmd BufWinEnter * :set relativenumber
+
+"Remap jj to Esc in insert mode
+inoremap jj <Esc>
+
+set ai "Auto indent
+set si "Smart indet
+set nowrap "Don't wrap lines
+
+set list
+set listchars=tab:▸\ ,eol:¬
+"
+" highlight NonText     ctermfg=175 "Pinkify the colors
+highlight SpecialKey  ctermfg=175
+
+set clipboard=unnamed
+
+nnoremap <Leader>n :NERDTreeToggle<CR>

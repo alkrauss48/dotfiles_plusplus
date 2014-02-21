@@ -1,0 +1,16 @@
+name: TLE
+root: ~/Code/TLE/5275-Web/public_html/
+tmux_options: -2
+
+windows:
+  - editor:
+      layout: 8087,238x60,0,0[238x44,0,0,0,238x15,0,45,5]
+      panes:
+        - vim
+        -
+  - shell: git remote update origin; git pull --rebase origin
+  - console/grunt:
+      layout: even-vertical
+      panes:
+        -
+        - grunt

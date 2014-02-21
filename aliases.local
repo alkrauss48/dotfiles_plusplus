@@ -1,0 +1,20 @@
+alias ls="ls -G"
+alias l="ls -laG"
+alias c="cd ~/Code"
+alias gruo="git remote update origin"
+
+alias cp="cp -v"
+alias mv="mv -v"
+alias rm="rm -v"
+alias g="git status"
+alias gg="git lg"
+alias gd="git diff"
+alias gb="git branch"
+alias gco="git checkout"
+alias grv="git remote -v"
+alias gcv="git commit -v"
+alias v="vim"
+alias oo='open -a /Applications/OpenOffice.org.app'
+alias chrome='open -a /Applications/Google\ Chrome.app'
+alias tmux='tmux -2'
+alias ak="ssh -Y root@162.243.14.224"

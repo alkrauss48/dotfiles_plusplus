@@ -1,0 +1,18 @@
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+[core]
+  excludesfile = ~/.gitignore
+[rebase]
+  autosquash = true
+[push]
+  default = current
+[alias]
+  ll = log --format=fuller --graph --decorate
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  wdiff = diff --color-words
+[user]
+  name = aaron
+  email = alkrauss48@gmail.com

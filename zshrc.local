@@ -1,0 +1,14 @@
+export PATH="/usr/local/bin:$PATH"
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+if
+  which pyenv > /dev/null; then eval "$(pyenv init -)";
+  rm ~/.pyenv/shims/*config
+fi
+
+HISTFILE=$HOME/.zhistory       # enable history saving on shell exit
+setopt APPEND_HISTORY          # append rather than overwrite history file.
+setopt HIST_EXPIRE_DUPS_FIRST  # allow dups, but expire old ones when I hit HISTSIZE
+setopt EXTENDED_HISTORY        # save timestamp and runtime information
