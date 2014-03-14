@@ -16,3 +16,5 @@
 [user]
   name = aaron
   email = alkrauss48@gmail.com
+[credential]
+  helper = osxkeychain

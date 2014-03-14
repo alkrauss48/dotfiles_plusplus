@@ -18,3 +18,8 @@ alias oo='open -a /Applications/OpenOffice.org.app'
 alias chrome='open -a /Applications/Google\ Chrome.app'
 alias tmux='tmux -2'
 alias ak="ssh -Y root@162.243.14.224"
+alias ak="ssh -Y root@162.243.14.224"
+
+function sg {
+  ssh -Y $1@173.193.96.40
+}

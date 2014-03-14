@@ -14,4 +14,5 @@ windows:
       panes:
         - rails c
         - rails s
-        - rake jobs:work
+        - bundle exec rake jobs:work
+        - bundle exec rackup faye.ru -s thin -E production
