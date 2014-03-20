@@ -23,3 +23,7 @@ alias ak="ssh -Y root@162.243.14.224"
 function sg {
   ssh -Y $1@173.193.96.40
 }
+
+function odoc {
+  ssh -Y $1@web.odoc.onenet.net
+}

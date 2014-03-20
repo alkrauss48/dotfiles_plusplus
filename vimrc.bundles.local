@@ -6,3 +6,4 @@ Bundle "garbas/vim-snipmate"
 Bundle "bronson/vim-trailing-whitespace"
 Bundle "gorodinskiy/vim-coloresque"
 Bundle "scrooloose/nerdtree"
+Bundle 'rking/ag.vim'
