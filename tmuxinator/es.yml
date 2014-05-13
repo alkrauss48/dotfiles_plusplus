@@ -1,5 +1,5 @@
-name: ss
-root: ~/Code/site-start
+name: ES
+root: ~/Code/ES/5075-Website-Redesign
 # tmux_options: -2
 
 windows:

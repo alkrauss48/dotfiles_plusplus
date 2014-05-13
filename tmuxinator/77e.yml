@@ -1,5 +1,5 @@
-name: ss
-root: ~/Code/site-start
+name: 77e
+root: ~/Code/staplegun/77E/main
 # tmux_options: -2
 
 windows:
@@ -10,7 +10,8 @@ windows:
         -
   - shell: git remote update origin; git pull --rebase origin
   - console/grunt:
-      layout: even-vertical
+      layout: main-horizontal
       panes:
         - mysql.server start
         - grunt
+        - grunt php

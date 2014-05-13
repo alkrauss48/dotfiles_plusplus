@@ -1,7 +1,7 @@
-name: ss
-root: ~/Code/site-start
-# tmux_options: -2
+# ~/.tmuxinator/hoa.yml
 
+project_name: hoa
+project_root: ~/Code/hoa_app
 windows:
   - editor:
       layout: 8087,238x60,0,0[238x44,0,0,0,238x15,0,45,5]
@@ -9,8 +9,9 @@ windows:
         - vim
         -
   - shell: git remote update origin; git pull --rebase origin
-  - console/grunt:
+  - console/server:
       layout: even-vertical
       panes:
-        - mysql.server start
-        - grunt
+        - be rails c
+        - be rails s
+        - be rake jobs:work

@@ -12,5 +12,5 @@ windows:
   - console/grunt:
       layout: even-vertical
       panes:
-        -
+        - mysql.server start
         - grunt

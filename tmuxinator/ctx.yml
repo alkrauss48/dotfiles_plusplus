@@ -1,5 +1,5 @@
-name: ss
-root: ~/Code/site-start
+name: ctx
+root: ~/Code/staplegun/CTX/main
 # tmux_options: -2
 
 windows:
@@ -10,7 +10,6 @@ windows:
         -
   - shell: git remote update origin; git pull --rebase origin
   - console/grunt:
-      layout: even-vertical
       panes:
         - mysql.server start
         - grunt
