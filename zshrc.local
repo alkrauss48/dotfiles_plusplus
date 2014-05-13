@@ -12,3 +12,8 @@ HISTFILE=$HOME/.zhistory       # enable history saving on shell exit
 setopt APPEND_HISTORY          # append rather than overwrite history file.
 setopt HIST_EXPIRE_DUPS_FIRST  # allow dups, but expire old ones when I hit HISTSIZE
 setopt EXTENDED_HISTORY        # save timestamp and runtime information
+
+# disable XON/XOFF flow control
+stty -ixon
+
+bindkey "^S" history-incremental-search-forward
