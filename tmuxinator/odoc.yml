@@ -1,5 +1,5 @@
-name: 77e
-root: ~/Code/staplegun/77E/main
+name: ODOC
+root: ~/Code/staplegun/ODOC/main
 # tmux_options: -2
 
 windows:
@@ -10,9 +10,9 @@ windows:
         -
   - shell: git remote update origin; git pull --rebase origin
   - console/grunt:
-      layout: main-horizontal
+      layout: tiled
       panes:
         - grunt
-        - mysql.server start
         - php -S localhost:8000
+        - mysql.server start; cd assets/images/src; grunt images
         - ~/Downloads/ngrok 80

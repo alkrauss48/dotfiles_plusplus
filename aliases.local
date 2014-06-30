@@ -28,5 +28,5 @@ function sg {
 }
 
 function odoc {
-  ssh -Y $1@web.odoc.onenet.net
+  ssh -Y okcommer@web.odoc.onenet.net
 }
