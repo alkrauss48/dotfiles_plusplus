@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for name in *; do
   target="$HOME/.$name"
   if [ -e "$target" ]; then
