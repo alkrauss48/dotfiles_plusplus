@@ -1,5 +1,5 @@
-name: ember
-root: ~/Code/node/cli-app
+name: oea
+root: ~/Code/staplegun/OEA/main
 # tmux_options: -2
 
 windows:
@@ -10,8 +10,9 @@ windows:
         -
   - shell: git remote update origin; git pull --rebase origin
   - console/grunt:
-      layout: main-horizontal
+      layout: tiled
       panes:
-        - ember server
-        -
-        - ~/Downloads/ngrok 80
+        - grunt
+        - php -S 127.0.0.1:8000
+        - mysql.server start; grunt images;
+        - ~/Downloads/ngrok 8000

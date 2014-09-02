@@ -10,3 +10,6 @@ Bundle 'rking/ag.vim'
 
 " Handlebars colors
 Bundle 'mustache/vim-mustache-handlebars'
+
+" Git Gutter
+Bundle 'airblade/vim-gitgutter'

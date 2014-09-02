@@ -19,12 +19,12 @@ set nowrap "Don't wrap lines
 set list
 set listchars=tab:▸\ ,eol:¬
 
+set paste
+
 set ignorecase
 "
 " highlight NonText     ctermfg=175 "Pinkify the colors
 highlight SpecialKey  ctermfg=175
-
-set clipboard=unnamed
 
 nnoremap <Leader>n :NERDTreeToggle<CR>
 
@@ -34,3 +34,7 @@ set undolevels=1000               " How many undos
 set undoreload=10000              " number of lines to save for undo
 
 set clipboard=unnamed
+
+" Set sign column to clear for vim-gitgutter
+highlight clear SignColumn
+autocmd ColorScheme * highlight clear SignColumn
