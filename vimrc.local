@@ -19,14 +19,13 @@ set nowrap "Don't wrap lines
 set list
 set listchars=tab:▸\ ,eol:¬
 
-set paste
-
 set ignorecase
 "
 " highlight NonText     ctermfg=175 "Pinkify the colors
 highlight SpecialKey  ctermfg=175
 
 nnoremap <Leader>n :NERDTreeToggle<CR>
+nnoremap <Leader>p :set invpaste paste?<CR>
 
 set undofile                      " Save undo's after file closes
 set undodir=$HOME/.vim.local/undo " where to save undo histories
