@@ -1,5 +1,6 @@
 syntax enable
 set background=dark
+" set background=light
 " let g:solarized_termtrans = 1
 set hlsearch
 colorscheme solarized
@@ -20,7 +21,10 @@ set list
 set listchars=tab:▸\ ,eol:¬
 
 set ignorecase
-"
+
+" Treat dashed words as whole words in stylesheets
+autocmd Filetype css,scss,sass setlocal iskeyword+=-
+
 " highlight NonText     ctermfg=175 "Pinkify the colors
 highlight SpecialKey  ctermfg=175
 
@@ -37,3 +41,9 @@ set clipboard=unnamed
 " Set sign column to clear for vim-gitgutter
 highlight clear SignColumn
 autocmd ColorScheme * highlight clear SignColumn
+
+" currently not working
+set iskeyword -=.
+
+" Use powerline font in airline
+let g:airline_powerline_fonts = 1

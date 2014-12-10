@@ -17,3 +17,5 @@ setopt EXTENDED_HISTORY        # save timestamp and runtime information
 stty -ixon
 
 bindkey "^S" history-incremental-search-forward
+
+export GOPATH="$HOME/Code/go/"

@@ -7,6 +7,7 @@ Bundle "bronson/vim-trailing-whitespace"
 Bundle "gorodinskiy/vim-coloresque"
 Bundle "scrooloose/nerdtree"
 Bundle 'rking/ag.vim'
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " Handlebars colors
 Bundle 'mustache/vim-mustache-handlebars'

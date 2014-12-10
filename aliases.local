@@ -1,6 +1,7 @@
 alias ls="ls -G"
 alias l="ls -laG"
-alias c="cd ~/Code"
+alias c="clear"
+alias co="cd ~/Code"
 alias gruo="git remote update origin"
 alias be="bundle exec "
 
@@ -23,6 +24,7 @@ alias chrome='open -a /Applications/Google\ Chrome.app'
 alias tmux='tmux -2'
 alias ak="ssh -Y root@162.243.14.224"
 alias ak="ssh -Y root@162.243.14.224"
+alias hosts="sudo vim /etc/hosts"
 
 function sg {
   ssh -Y $1@173.193.96.40

@@ -1,0 +1,13 @@
+name: okcrb
+root: ~/Code/presentations/okcrb-api
+# tmux_options: -2
+
+windows:
+  - presentation: mdp -i okcrb.md
+  - editor:
+  - shell:
+  - console/server:
+      panes:
+        -
+        -
+  - command-list: vim commands-list.txt

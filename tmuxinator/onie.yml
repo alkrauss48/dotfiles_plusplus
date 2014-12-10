@@ -1,5 +1,5 @@
-name: ES
-root: ~/Code/ES/5075-Website-Redesign
+name: onie
+root: ~/Code/staplegun/ONIE/main
 # tmux_options: -2
 
 windows:
@@ -12,6 +12,7 @@ windows:
   - console/grunt:
       layout: tiled
       panes:
-        - mysql.server start
-        - php -S 127.0.0.1:8000
         - grunt
+        - php -S 127.0.0.1:8000
+        - mysql.server start; grunt images;
+        - ~/Downloads/ngrok 8000
