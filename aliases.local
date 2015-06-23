@@ -18,6 +18,7 @@ alias gco="git checkout"
 alias gcom="git checkout master"
 alias grv="git remote -v"
 alias gcv="git commit -v"
+alias gc="git commit"
 alias v="reattach-to-user-namespace vim"
 alias oo='open -a /Applications/OpenOffice.org.app'
 alias chrome='open -a /Applications/Google\ Chrome.app'
