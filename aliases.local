@@ -26,11 +26,26 @@ alias tmux='tmux -2'
 alias ak="ssh -Y root@162.243.14.224"
 alias ak="ssh -Y root@162.243.14.224"
 alias hosts="sudo vim /etc/hosts"
+alias s="spotify"
+alias sp="spotify pause"
+alias t="~/.rbenv/shims/t"
 
 function sg {
   ssh -Y $1@173.193.96.40
 }
 
+function eps {
+  ssh -Y edmondsc@50.23.238.19
+}
+
 function odoc {
   ssh -Y okcommer@web.odoc.onenet.net
+}
+
+function okworks {
+  ssh -Y okcommer@works.odoc.onenet.net
+}
+
+function enlink {
+  ssh -Y enlink@173.192.98.203
 }
