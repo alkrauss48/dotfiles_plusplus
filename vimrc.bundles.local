@@ -1,16 +1,17 @@
-Bundle 'altercation/vim-colors-solarized'
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "honza/vim-snippets"
-Bundle "garbas/vim-snipmate"
-Bundle "bronson/vim-trailing-whitespace"
-Bundle "gorodinskiy/vim-coloresque"
-Bundle "scrooloose/nerdtree"
-Bundle 'rking/ag.vim'
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plug 'altercation/vim-colors-solarized'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'honza/vim-snippets'
+Plug 'garbas/vim-snipmate'
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'gorodinskiy/vim-coloresque'
+Plug 'scrooloose/nerdtree'
+Plug 'rking/ag.vim'
+Plug 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plug 'vim-airline/vim-airline'
 
 " Handlebars colors
-Bundle 'mustache/vim-mustache-handlebars'
+Plug 'mustache/vim-mustache-handlebars'
 
 " Git Gutter
-Bundle 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'

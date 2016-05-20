@@ -1,7 +1,7 @@
 alias ls="ls -G"
 alias l="ls -laG"
 alias c="clear"
-alias co="cd ~/Code"
+alias co="cd ~/code"
 alias gruo="git remote update origin"
 alias be="bundle exec "
 
@@ -19,7 +19,7 @@ alias gcom="git checkout master"
 alias grv="git remote -v"
 alias gcv="git commit -v"
 alias gc="git commit"
-alias v="reattach-to-user-namespace vim"
+alias v="vim"
 alias oo='open -a /Applications/OpenOffice.org.app'
 alias chrome='open -a /Applications/Google\ Chrome.app'
 alias tmux='tmux -2'
@@ -30,22 +30,4 @@ alias s="spotify"
 alias sp="spotify pause"
 alias t="~/.rbenv/shims/t"
 
-function sg {
-  ssh -Y $1@173.193.96.40
-}
-
-function eps {
-  ssh -Y edmondsc@50.23.238.19
-}
-
-function odoc {
-  ssh -Y okcommer@web.odoc.onenet.net
-}
-
-function okworks {
-  ssh -Y okcommer@works.odoc.onenet.net
-}
-
-function enlink {
-  ssh -Y enlink@173.192.98.203
-}
+alias mux="tmuxinator"

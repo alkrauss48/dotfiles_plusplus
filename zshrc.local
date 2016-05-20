@@ -24,11 +24,15 @@ setopt HIST_EXPIRE_DUPS_FIRST  # allow dups, but expire old ones when I hit HIST
 setopt EXTENDED_HISTORY        # save timestamp and runtime information
 
 # disable XON/XOFF flow control
-stty -ixon
+# stty -ixon
 
-bindkey "^S" history-incremental-search-forward
+# bindkey "^S" history-incremental-search-forward
 
-export GOPATH="$HOME/Code/go/"
-export PATH="$PATH:$GOPATH/bin"
+# export GOPATH="$HOME/Code/go/"
+# export PATH="$PATH:$GOPATH/bin"
 
-eval $(/usr/local/bin/docker-machine env aws-docker)
+# eval $(/usr/local/bin/docker-machine env aws-docker)
+
+eval "$(rbenv init -)"
+
+bindkey -M viins 'jj' vi-cmd-mode
