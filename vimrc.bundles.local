@@ -1,17 +1,18 @@
 Plug 'altercation/vim-colors-solarized'
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'tomtom/tlib_vim'
+
+Plug 'MarcWeber/vim-addon-mw-utils' " required for vim-snipmate
+Plug 'tomtom/tlib_vim' "required for vim-snipmate
 Plug 'honza/vim-snippets'
 Plug 'garbas/vim-snipmate'
+
 Plug 'bronson/vim-trailing-whitespace'
-Plug 'gorodinskiy/vim-coloresque'
+" Plug 'gorodinskiy/vim-coloresque'
 Plug 'scrooloose/nerdtree'
 Plug 'rking/ag.vim'
-Plug 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline'
 
 " Handlebars colors
-Plug 'mustache/vim-mustache-handlebars'
-
+" Plug 'mustache/vim-mustache-handlebars'
+"
 " Git Gutter
 Plug 'airblade/vim-gitgutter'
