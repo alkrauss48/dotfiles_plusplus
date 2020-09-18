@@ -8,6 +8,10 @@ if
   rm ~/.pyenv/shims/*config
 fi
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 code () {
   if [[ $# = 0 ]]
   then
@@ -33,7 +37,7 @@ setopt EXTENDED_HISTORY        # save timestamp and runtime information
 
 # eval $(/usr/local/bin/docker-machine env aws-docker)
 
-eval "$(rbenv init -)"
+# eval "$(pyenv init -)"
 
 bindkey -M viins 'jj' vi-cmd-mode
 

@@ -16,3 +16,9 @@ Plug 'rking/ag.vim'
 "
 " Git Gutter
 Plug 'airblade/vim-gitgutter'
+
+" Editor Config parsing
+Plug 'editorconfig/editorconfig-vim'
+
+" Vue syntax highlighting
+Plug 'posva/vim-vue'

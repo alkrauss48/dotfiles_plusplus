@@ -2,12 +2,15 @@ alias ls="ls -G"
 alias l="ls -laG"
 alias c="clear"
 alias co="cd ~/code"
-alias gruo="git remote update origin"
 alias be="bundle exec "
 
 alias cp="cp -v"
 alias mv="mv -v"
 alias rm="rm -v"
+
+alias d="docker"
+alias dc="docker-compose"
+
 alias g="git status"
 alias gg="git lg"
 alias gd="git diff"
@@ -19,6 +22,10 @@ alias gcom="git checkout master"
 alias grv="git remote -v"
 alias gcv="git commit -v"
 alias gc="git commit"
+alias gruo="git remote update origin"
+alias gpom="git pull origin master"
+alias gbmd="git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d"
+
 alias v="vim"
 alias oo='open -a /Applications/OpenOffice.org.app'
 alias chrome='open -a /Applications/Google\ Chrome.app'
@@ -28,6 +35,5 @@ alias ak="ssh -Y root@162.243.14.224"
 alias hosts="sudo v /etc/hosts"
 alias s="spotify"
 alias sp="spotify pause"
-alias t="~/.rbenv/shims/t"
 
 alias mux="tmuxinator"
