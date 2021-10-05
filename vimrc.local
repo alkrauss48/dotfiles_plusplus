@@ -7,6 +7,9 @@ colorscheme solarized
 imap <C-j> <Plug>snipMateNextOrTrigger
 smap <C-j> <Plug>snipMateNextOrTrigger
 
+" Remove snipmate deprecation warning
+let g:snipMate = { 'snippet_version' : 1 }
+
 set relativenumber
 autocmd BufWinEnter * :set relativenumber
 
@@ -48,5 +51,5 @@ set iskeyword -=.
 " Use powerline font in airline
 let g:airline_powerline_fonts = 1
 
-" Map Ctrl + [ to open fuzzy find (FZF) history search
-nnoremap <c-[> :History<cr>
+" Map Ctrl + ] to open fuzzy find (FZF) history search
+nnoremap <c-]> :History<cr>

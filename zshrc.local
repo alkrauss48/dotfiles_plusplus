@@ -42,3 +42,22 @@ setopt EXTENDED_HISTORY        # save timestamp and runtime information
 bindkey -M viins 'jj' vi-cmd-mode
 
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/aaronkrauss/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/aaronkrauss/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/aaronkrauss/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/aaronkrauss/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+export COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1
+
+export COMPOSER_HOME=/usr/local/bin/composer

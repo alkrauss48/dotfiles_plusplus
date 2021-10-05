@@ -24,15 +24,15 @@ alias gcv="git commit -v"
 alias gc="git commit"
 alias gruo="git remote update origin"
 alias gpom="git pull origin master"
-alias gbmd="git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d"
+alias gbmd="git branch --merged | grep -v "(^\*|master|dev)" | xargs git branch -d"
 
 alias v="vim"
 alias oo='open -a /Applications/OpenOffice.org.app'
 alias chrome='open -a /Applications/Google\ Chrome.app'
 alias tmux='tmux -2'
 alias ak="ssh -Y root@162.243.14.224"
-alias ak="ssh -Y root@162.243.14.224"
-alias hosts="sudo v /etc/hosts"
+alias okand="ssh root@104.131.43.88"
+alias hosts="sudo vim /etc/hosts"
 alias s="spotify"
 alias sp="spotify pause"
 

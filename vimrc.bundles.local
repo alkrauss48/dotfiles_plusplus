@@ -22,3 +22,9 @@ Plug 'editorconfig/editorconfig-vim'
 
 " Vue syntax highlighting
 Plug 'posva/vim-vue'
+
+" TypeScript syntax
+Plug 'leafgarland/typescript-vim'
+
+" Swift syntax
+Plug 'keith/swift.vim'
