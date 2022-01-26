@@ -37,3 +37,4 @@ alias s="spotify"
 alias sp="spotify pause"
 
 alias mux="tmuxinator"
+alias k="kubectl"
